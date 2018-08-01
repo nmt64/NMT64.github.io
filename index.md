@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Markdown Style Guide
+title: Tam Nguyen
 ---
 
 This is a demo of all styled elements in Jekyll Now.
-
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
@@ -17,7 +15,7 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
 
-An image, located within /images
+
 
 ![an image alt text]({{ https://github.com/nmt64/NMT64.github.io/blob/master/pics/TamNguyen_Pro5Pic%20copy.jpg }}/pics/TamNguyen_Pro5Pic copy.jpg "an image title")
 
