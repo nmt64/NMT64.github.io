@@ -10,8 +10,7 @@ name: Tam Nguyen
 description: I create my future by code, I record my life through camera lens, I keep my memories through words, and I see the world through travel.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://www.facebook.com/photo.php?fbid=2068655836524955&set=a.111602872230271.14309.100001416768765&type=3&theater
-#
+avatar:![an image alt text]({{ https://github.com/nmt64/NMT64.github.io/blob/master/pics/TamNguyen_Pro5Pic%20copy.jpg }}/pics/TamNguyen_Pro5Pic copy.jpg "an image title")
 # Flags below are optional
 #
 
