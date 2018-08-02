@@ -24,7 +24,7 @@ A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass lite
 
 
 
-![an image alt text]({{ https://github.com/nmt64/NMT64.github.io/blob/master/pics/TamNguyen_Pro5Pic%20copy.jpg }}/pics/TamNguyen_Pro5Pic copy.jpg "an image title")
+![an image alt text]({{ https://github.com/nmt64/NMT64.github.io/blob/master/pics/TamNguyen_Pro5Pic%20copy.jpg }}/pics/TamNguyen_Pro5Pic.jpg "an image title")
 
 
 ----
