@@ -10,11 +10,12 @@ This is a demo of all styled elements in Jekyll Now.
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
-## Header 2 (H1 is reserved for post titles)##
+## Llalalala (H1 is reserved for post titles)##
 
-### Header 3
+### Babba
 
 #### Header 4
+
 
 A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
 
