@@ -1,4 +1,12 @@
-<ul style="display: inline; color:red">
+<style type="text/css">
+#testul li{
+  color:red;
+  display:inline;
+}
+
+</style>
+
+<ul id="testul">
   <li><a href="">Homepage</a></li>
   <li>Blog</li>
   <li>About</li>
