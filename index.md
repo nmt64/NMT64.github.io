@@ -1,8 +1,8 @@
 
-<ul id="testul">
+<ul id="testul; width:100%; position:relative; float:left">
   <li style="display:inline"><a href="">Homepage</a></li>
-  <li style="color:red; display:inline">Blog</li>
-  <li style="color:green; display:inline">About</li>
+  <li style="color:red; display:inline"><a href="">Blog</a></li>
+  <li style="color:green; display:inline"><a href="">About</a></li>
 </ul>
 
 
