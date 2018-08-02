@@ -1,12 +1,11 @@
 
-<ul id="testul";>
-  <li style="display:inline; width:200px; position:relative;"><a href="">Homepage</a></li>
-  <li style="color:red; display:inline; width:200px; position:relative;"><a href="">Blog</a></li>
-  <li style="color:green; display:inline; width:200px; position:relative;"><a href="">About</a></li>
-</ul>
-
-<div id="test">test text</div>
-
+<table id="wrapheader">
+	<tr>
+		<td><a href="">Home</a></td>
+		<td><a href="">Blog</a></td>
+		<td><a href="">About</a></td>
+	</tr>
+</table>
 
 
 This is a demo of all styled elements in Jekyll Now.
