@@ -1,15 +1,8 @@
-<style type="text/css">
-#testul li{
-  color:red;
-  display:inline;
-}
-
-</style>
 
 <ul id="testul">
-  <li><a href="">Homepage</a></li>
-  <li>Blog</li>
-  <li>About</li>
+  <li style="display:inline"><a href="">Homepage</a></li>
+  <li style="color:red; display:inline">Blog</li>
+  <li style="color:green; display:inline">About</li>
 </ul>
 
 
