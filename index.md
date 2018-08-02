@@ -1,8 +1,8 @@
 
 <ul id="testul; width:100%; position:relative; float:left">
-  <li style="display:inline"><a href="">Homepage</a></li>
-  <li style="color:red; display:inline"><a href="">Blog</a></li>
-  <li style="color:green; display:inline"><a href="">About</a></li>
+  <li style="display:inline; width:200px; position:relative;"><a href="">Homepage</a></li>
+  <li style="color:red; display:inline; width:200px; position:relative;"><a href="">Blog</a></li>
+  <li style="color:green; display:inline; width:200px; position:relative;"><a href="">About</a></li>
 </ul>
 
 
