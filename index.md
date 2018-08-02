@@ -1,7 +1,10 @@
----
-layout: post
-title: Tam Nguyen
----
+<ul>
+  <li><a href="">Homepage</a></li>
+  <li>Blog</li>
+  <li>About</li>
+</ul>
+
+
 
 This is a demo of all styled elements in Jekyll Now.
 
