@@ -1,4 +1,4 @@
-<ul>
+<ul style="display: inline; color:red">
   <li><a href="">Homepage</a></li>
   <li>Blog</li>
   <li>About</li>
