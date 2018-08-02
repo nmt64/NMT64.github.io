@@ -1,9 +1,11 @@
 
-<ul id="testul; width:100%; position:relative; float:left">
+<ul id="testul; width:100%; >
   <li style="display:inline; width:200px; position:relative;"><a href="">Homepage</a></li>
   <li style="color:red; display:inline; width:200px; position:relative;"><a href="">Blog</a></li>
   <li style="color:green; display:inline; width:200px; position:relative;"><a href="">About</a></li>
 </ul>
+
+<div id="test">test text</div>
 
 
 
