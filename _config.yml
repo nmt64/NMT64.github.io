@@ -16,6 +16,16 @@ avatar: https://www.facebook.com/photo.php?fbid=2068655836524955&set=a.111602872
 logo: /pics/TamNguyen_Pro5Pic.jpg
 
 # Flags below are optional
+
+
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
 #
 
 # Includes an icon in the footer for each username you enter
