@@ -2,7 +2,7 @@
 <table id="wrapheader">
 	<tr>
 		<td><a href="https://nmt64.github.io/">Home</a></td>
-		<td><a href="./docs/2018-07-08.md">Blog</a></td>
+		<td><a href="./docs/2018-07-08.html">Blog</a></td>
 		<td><a href="">About</a></td>
 	</tr>
 </table>
