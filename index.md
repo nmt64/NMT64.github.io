@@ -1,7 +1,7 @@
 
 <table id="wrapheader">
 	<tr>
-		<td><a href="">Home</a></td>
+		<td><a href="https://nmt64.github.io/">Home</a></td>
 		<td><a href="">Blog</a></td>
 		<td><a href="">About</a></td>
 	</tr>
@@ -16,7 +16,7 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 ### Babba
 
-#### Header 4
+
 
 
 A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
