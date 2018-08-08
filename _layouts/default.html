@@ -65,5 +65,9 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    
+    {% if site.instagram_username %}
+      <p class="view"><a href="{{ site.instagram.owner_url }}">View My Instagram Profile</a></p>
+    {% endif %}
   </body>
 </html>
