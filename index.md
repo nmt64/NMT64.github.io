@@ -5,15 +5,12 @@ layout: default
 <table id="wrapheader">
 	<tr>
 		<td><a href="https://nmt64.github.io/">Home</a></td>
-		<td><a href="./docs/20180708.md">Blog</a></td>
+		<td><a href="./docs/test2.html">Blog</a></td>
 		<td><a href="">About</a></td>
 	</tr>
 </table>
 
 
-<a href="./docs/20180708.md"> link test</a>
-	 
-<a href="./docs/test1.md"> link test1</a>
 
 <a href="./docs/test2.html"> link test2 file html</a>
 
