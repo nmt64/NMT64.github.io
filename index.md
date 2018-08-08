@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 <table id="wrapheader">
 	<tr>
