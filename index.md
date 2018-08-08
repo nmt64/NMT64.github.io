@@ -8,7 +8,7 @@
 </table>
 
 
-<a href="./docs/2018-07-08.md"> link test1</a>
+<a href="./docs/2018-07-08.md"> link test</a>
 	 
 <a href="./docs/test1.md"> link test1</a>
 
