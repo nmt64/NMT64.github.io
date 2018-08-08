@@ -12,8 +12,6 @@ layout: default
 
 
 
-<a href="./docs/test2.html"> link test2 file html</a>
-
 
 This is a demo of all styled elements in Jekyll Now.
 
