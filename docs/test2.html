@@ -1,15 +1,198 @@
-test html
+<html>
 
-<span style="color:red">test css</span>
-
-test text without css
-
-<div id="test"> test css style </div>
+<head></head>
 
 
+<body>
+	<!--
+	<div id="header_img_bg">
+		<img src="./img/B1B79DE9-150D-4CFB-B91B-B3F273E1EE4E.jpg"/>
+	</div>
+	-->
+	
+	<div id="wrap_content">
+	
+		<div id="blog_title">Tam Nguyen's blog</div>
+		
+		<div id="blog_list">
+			<div style="font-weight:bold">Blog list</br></br></div>
+			<ul>
+				<li><a href="">My Intern Project</a></li>
+			</ul>
+		</div>
+		
+		<div id="blog_content">
+			<div>My Intern Project</div>
+			<div>
+			This summer, I interned at FPT Software Company as an Artificial Intelligence (AI) Developer. I was introduced with Computer Vision, a completely new field for me in Machine Learning world. I worked with data analysis several times in my Mathematical Modelling course, however, I have never had experiences in image processing or especially editing by code. In two months, I worked with User Interface/User Experience Design team to train a model predicting the content of UX flowchart cards and then generating a site-map based on object’s location. This sounds really interesting since my project can save a lot of time for Business Analytics (BA) team from delivery ideas from customer to UX/UI team. Consequently, BA can easier to sign a contract with customer since they can cut-down completing time of UX/UI team’s task from 2 weeks into 10 seconds. Hopefully with my model, BA team will only need to take a picture and then a sitemap will automatically appear.
+			<br><br>
+
+			At first, I was overwhelmed with all the technical knowledges that I need to learn. There are too many methods to recognize object and the process to optimize method is even more harder. After several meeting, we split our problem into small tasks. Since the sitemap is ordered as pattern like in the image below, I can base on card’s coordinate to see the relationship between mother card and child card. Thus, the first step will be identify card with its coordinate  in an image. The second step will be build a model to recognize card’s name. I will discuss further about each step in the next two sections below.
+			<br><br>
+			
+			<ul>
+				<li>Image Processing: 
+					<br><br>
+					- Purpose: In this step, I want to crop separately each card in one image, which definite improves performance of my model in the classify step.
+					<br><br>
+					- Ways to approach: OpenCV
+					<br><br>
+					<ul>
+						<li>At first, I use some basic algorithm to find card’s contour such as Canny edges and then use hough lines detection to draw on cards. By changing parameter, I got a pretty good result: 
+						</li>
+						<br>
+						<li>However, Canny edges method doesn’t work well under different lighting condition. Since I need to normalize image
+						</li>
+						<br>
+					</ul>
+				</li>
+				<br>
+				
+				<li>
+				Build a simple CNN model to classify images:
+				<br><br>
+				There are 54 cards to predict, however, each of them has two sides which present for its function in different web-design order. Hence, I have 108 classes in total to 
+				<br><br>
+				Since I realize that all cards are rectangle, I used Matching Template in OpenCV which identify the occurrence of an image patch. However, there are several problems that I met: 
+				<br><br>
+					<ul>
+						<li>Matching template needs a cropped template to identify the occurrence in the same picture, which simply find the same matrix pattern in that image to craw. 
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+
+			
+
+			</div>
+		
+		
+		
+		</div>
+		
+	</div>
+
+
+</body>
+
+
+
+
+</html>
 
 <style type="text/css">
-#test{
-  color:green;
+*{
+	margin:0;
+	padding:0;
 }
+
+
+body{
+	font-family: georgia;
+	background-image: url("./img/B1B79DE9-150D-4CFB-B91B-B3F273E1EE4E.jpg");
+    background-repeat: repeat-y;
+	background-size: 100% auto;
+}
+
+
+#header_img_bg{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:0
+}
+#header_img_bg img{
+	position:relative;
+	width:100%;
+}
+
+/*----------------------*/
+#blog_title{
+	position:relative;
+	width:500px;
+	font-size:28px;
+	font-weight: bold;
+	color: #404040;
+	
+	font-family: Arial;
+	margin-left:10px;
+	margin-top:30px;
+	
+	border-bottom: 1px solid #cce6ff;
+}
+
+/*----------------------*/
+#blog_list{
+	position:relative;
+	width:200px;
+	height:100px;
+	float:right;
+	margin:10px;
+	border-left: 1px solid #cce6ff;
+}
+
+#blog_list ul li{
+	margin-left:20px;
+}
+#blog_list ul li a{
+	text-decoration:none;
+	color: #4d4d4d;
+}
+#blog_list ul li a:hover{
+	text-decoration:underline;
+}
+
+
+/*----------------------*/
+#blog_content{
+	position:relative;
+	width:600px;
+	float:left;
+	
+	margin-left:10px;
+	margin-bottom:20px;
+}
+
+#blog_content div:first-child{
+	font-weight:bold;
+	font-size:18;
+}
+
+#blog_content ul li{
+	margin-left:20px;
+}
+
+/*----------------------*/
+#wrap_content{
+	position:relative;
+	float:left;
+	width:900px;
+	margin-left:50%;
+	left:-450px;
+	background-color:#FFFFFF;
+  opacity:0.9;
+	
+	margin-top:100px;
+	margin-bottom:50px;
+	border-radius:3px;
+	
+	
+}
+
+#wrap_content div{
+	padding:10px;
+
+}
+
+
+/*----------------------*/
+
+
+
+
+
 </style>
+
+
