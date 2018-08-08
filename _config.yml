@@ -6,7 +6,6 @@ theme: jekyll-theme-minimal
 # Name of your site (displayed in the header)
 title: [Tam Nguyen]
 
-
 # Short bio or description (displayed in the header)
 description: I create my future by code, I record my life through camera lens, I keep my memories through words, and I see the world through travel.
 
@@ -16,6 +15,8 @@ avatar: https://www.facebook.com/photo.php?fbid=2068655836524955&set=a.111602872
 logo: /pics/TamNguyen_Pro5Pic.jpg
 
 show_downloads: true
+
+instagram_username: nmt64
 
 #
 # !! You don't need to change any of the configuration flags below !!
