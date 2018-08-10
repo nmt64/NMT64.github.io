@@ -41,8 +41,23 @@
 						<li>At first, I use some basic algorithm to find card’s contour such as Canny edges and then use hough lines detection to draw on cards. By changing parameter, I got a pretty good result: 
 						</li>
 						<br>
-						<li>However, Canny edges method doesn’t work well under different lighting condition. Since I need to normalize image
+						<li>However, Canny edges method doesn’t work well under different lighting condition. Since I need to normalize images by resizing them into the same size, the quality of images have changed which directly affects the result of Canny’s algorithm. 
 						</li>
+						<li>I repeated the dilate step to reduce the number of contours, however, the more being dilated, the bigger card’s selection area will be. In real world situation, BA team will put the card so closely to have the best visualization for customer, which means the dilation method is not a good solution
+							</li>
+						
+						<li>My next approach is binary transformation. There are many algorithms to convert image to binary image by threshold, however, noises and lighting are the main problem for this method. Since it can only take pixel value bigger/smaller than a threshold, with image has flash or the reflection of lights, this algorithm cannot detect card separately. 
+							</li>
+						<li>GrabCut is another method which will cut only object in an image. This method require some simple lines on the canvas to help the algorithm to locate the object. I can use some basic image processing step like Canny edge/Dilate to have some line for GrabCut. However, this will take a lot of time to prepare the training dataset. I keep looking for more edge detection algorithms. 
+							</li>
+						<dl>
+						  <dt>Coffee</dt>
+						  <dd>- black hot drink</dd>
+						  <dt>Milk</dt>
+						  <dd>- white cold drink</dd>
+						</dl>
+						
+						
 						<br>
 					</ul>
 				</li>
