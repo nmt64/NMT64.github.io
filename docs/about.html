@@ -1,1 +1,162 @@
+<html>
+
+<head></head>
+
+
+<body>
+	<!--
+	<div id="header_img_bg">
+		<img src="./img/cropped-img_86931.jpg"/>
+	</div>
+	-->
+	<div class="bg"></div>
+	
+	<div id="wrap_content">
+		<div>About me</div>
+		<div>Whatever I Do, I Do it with passion, or not at all</div>
+		<table align="right">
+			<tr>
+				<td><div><a href="https://github.com/nmt64">My Github</a></div></td>
+				<td><img src="./img/github2.png"/></td>
+			</tr>
+				<td><div><a href="https://www.linkedin.com/in/tam-nguyen-nmt64/">My LinkedIn</a></div></td>
+				<td><img src="./img/linkedin3.png"/></td>
+			<tr>
+				<td><div><a href="https://www.instagram.com/nmt64/">My Instagram</a></div></td>
+				<td><img src="./img/instagram2.png"/></td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+
+
+
+
+</html>
+
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+body{
+	/*font-family: Courier New;*/
+	font-family: "Lucida Sans", sans-serif;
+	font-size:16;
+	background-color: #161616;
+	
+	background-image: url("./img/cropped-img_86931.jpg");
+	background-repeat: repeat-y;
+	background-size: auto 100%;
+}
+
+/*
+.bg {
+    /* The image used */
+    background-image: url("./img/cropped-img_86931.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+
+
+#header_img_bg{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:0
+}
+#header_img_bg img{
+	position:relative;
+	width:100%;
+}
+
+
+/*----------------------*/
+#wrap_content{
+	position:relative;
+	float:left;
+	width:900px;
+	margin-left:50%;
+	left:-450px;
+	text-align:right;
+	/*
+	background-color:#FFFFFF;
+	opacity:0.9;
+	*/
+	margin-top:100px;
+	margin-bottom:50px;
+	border-radius:3px;
+}
+
+#wrap_content div{
+	padding:10px;
+}
+
+#wrap_content a{
+	font-size:20px;
+	text-decoration:none;
+	color:#FFFFFF;
+	/*text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em blue, 0 0 0.2em blue;*/
+	text-shadow: 0px 0px 25px #FFFFFF;
+}
+#wrap_content a:hover{
+	text-decoration:underline;
+}
+
+
+/*-------------------*/
+#wrap_content>div:FIRST-CHILD{
+	position:relative;
+	float:left;
+	width:100%;
+	color:#FFFFFF;
+	font-size:50px;
+	font-weight:bold;
+	text-shadow: 0px 0px 25px #FFFFFF;
+}
+
+#wrap_content>div:nth-child(2){
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+/*--------------------*/
+#wrap_content table{
+	text-align:right;
+	margin-top:30px;
+}
+
+
+#wrap_content table img{
+	width:35px;
+}
+
+/*------------ responsive design ---------------*/
+/*
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+*/
+
+</style>
+
+
 
