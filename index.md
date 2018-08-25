@@ -6,7 +6,7 @@ layout: default
 	<tr>
 		<td><a href="https://nmt64.github.io/">Home</a></td>
 		<td><a href="./docs/test2.html">Blog</a></td>
-		<td><a href="">About</a></td>
+		<td><a href="./docs/about.html">About</a></td>
 	</tr>
 </table>
 
