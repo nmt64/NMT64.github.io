@@ -5,7 +5,7 @@ layout: default
 <table id="wrapheader">
 	<tr>
 		<td><a href="https://nmt64.github.io/">Home</a></td>
-		<td><a href="./docs/test2.html">Blog</a></td>
+		<td><a href="./docs/blog.html">Blog</a></td>
 		<td><a href="./docs/about.html">About</a></td>
 	</tr>
 </table>
