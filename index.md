@@ -11,24 +11,13 @@ layout: default
 </table>
 
 
+My name is Tam Nguyen. 
 
+I am a sophomore at College of Wooster, majoring in Computer Science and Mathematics. 
 
-This is a demo of all styled elements in Jekyll Now.
+And I can do numbers and do art at the same time.
 
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-## Llalalala (H1 is reserved for post titles)##
-
-### Babba
-
-
-
-
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
-
-
-
-![an image alt text]({{ https://github.com/nmt64/NMT64.github.io/blob/master/pics/03343FEB-EDAB-425B-BFB9-D0D0A3F67537.JPG }}/pics/03343FEB-EDAB-425B-BFB9-D0D0A3F67537.JPG "an image title")
+<a href="https://www.instagram.com/nmt64/">View my Instagram Profile</a>
 
 
 ----
